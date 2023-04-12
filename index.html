@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Treasure Hunt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="text">
+        <h1>Treasure Hunt</h1>
+        <p>Search the ocean grid to find the treasure!</p>
+    </div>
+    <table id="game">
+      <!-- create 15 rows -->
+      <tr>
+        <!-- create 15 cells in each row -->
+        <td class="water"></td>
+        <td class="water"></td>
+        <td class="water"></td>
+        <td class="water"></td>
+        <td class="water"></td>
+      </tr>
+
+      <tr>
+        <!-- create 15 cells in each row -->
+        <td class="water"></td>
+        <td class="water"></td>
+        <td class="water"></td>
+        <td class="water"></td>
+        <td class="water"></td>
+      </tr>
+
+      <tr>
+        <!-- create 15 cells in each row -->
+        <td class="water"></td>
+        <td class="water"></td>
+        <td class="water"></td>
+        <td class="water"></td>
+        <td class="water"></td>
+      </tr>
+      <!-- ... -->
+    </table>
+    <!-- create a full screen overlay element -->
+    <div id="overlay">
+      <!-- create a message element inside the overlay -->
+      <img src="./images/treasure.png">
+      <div id="message">You found the treasure!</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
